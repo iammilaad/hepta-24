@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <style>
+      .parent {
+        display: flex;
+      }
+      .parent div {
+        width: 100px;
+        height: 100px;
+        background: red;
+      }
+      .parent div:nth-child(odd) {
+        background: black;
+      }
+      .parent div:nth-child(even) {
+        background: gray;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </body>
+</html>
